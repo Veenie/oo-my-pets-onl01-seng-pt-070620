@@ -40,10 +40,11 @@ class Owner
   end
   
   def sell_pets
-    if Cat.all.select{|cat| cat.owner == self}
+    if cats.select{|cat| cat.owner == self}
       cat.clear
     end
     if Dog.all.select{|dog| dog.owner == self}
+      dog.clear
   end 
   
   def list_pets
