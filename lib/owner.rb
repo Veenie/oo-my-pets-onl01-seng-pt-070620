@@ -43,7 +43,7 @@ class Owner
     if Cat.all.select{|cat| cat.owner == self}
       cat.clear
     end
-    if 
+    if Dog.all.select{|dog| dog.owner == self}
   end 
   
   def list_pets
