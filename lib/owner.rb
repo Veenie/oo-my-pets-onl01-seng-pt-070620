@@ -1,5 +1,5 @@
 class Owner
-  attr_reader :name
+  attr_accessor :species, :name
   
   @@cats 
   @@dogs 
@@ -7,6 +7,11 @@ class Owner
   
   def initialize (name)
     @name = name
+    @species = human
+  end
+  
+  def say_species
+    @species
   end
   
   def buy_cat
