@@ -40,6 +40,9 @@ class Owner
   end
   
   def sell_pets
+    if Cat.all.select{|cat| cat.owner == self}
+      cat.clear
+    end
     if 
   end 
   
