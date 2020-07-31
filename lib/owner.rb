@@ -40,7 +40,7 @@ class Owner
   end
   
   def sell_pets
-  
+    if 
   end 
   
   def list_pets
