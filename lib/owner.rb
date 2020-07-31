@@ -1,7 +1,9 @@
 class Owner
   attr_accessor :name
   
-  @@pets
+  @@cats 
+  @@dogs 
+  
   
   def initialize (name)
     @name = name
@@ -13,7 +15,20 @@ class Owner
   def buy_dog
   end
   
+  def dogs
+    @@dogs
+  end
   
+  def cats
+    @@cats
+  end
+  
+  def sell_pets
+  
+  end 
+  
+  def list_pets
+  end
   
   # code goes here
 end
