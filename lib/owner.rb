@@ -32,11 +32,11 @@ class Owner
   end
   
   def dogs
-    @@dogs
+    
   end
   
   def cats
-    @@cats
+    
   end
   
   def sell_pets
