@@ -49,9 +49,14 @@ class Owner
       pet.owner = nil
     end
 
-  end 
+  end
+  
+  def walk_dogs
+    
   
   def list_pets
+    self.dogs
+    self.cats
   end
   
   # code goes here
